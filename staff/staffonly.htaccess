@@ -1,0 +1,4 @@
+AuthName "Staff Access Only"
+AuthUserFile C:/htaccess/.htpasswd
+AuthType Basic
+require valid-user

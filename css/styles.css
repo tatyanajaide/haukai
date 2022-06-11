@@ -1,0 +1,99 @@
+body{
+    background-color: #f2f2f2;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #333;
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+.thehaukai{
+    font-size: 8vw;
+}
+h1{
+    font-size: 4vw;}
+h2{
+    font-size: 3vw;}
+h3{
+    font-size: 2vw;}
+
+.topnav {
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 1vw 1vw;
+    font-size:2vw;
+}
+.topnav a:hover {
+    background-color: #C23D00;
+    color: black;}
+.topnav_right{
+    float: right;
+    background-color: #CCCCCC;}
+
+dl{
+    text-align: center;
+    line-height: 4vw;
+}
+.menuitem{
+    color:#5c5a58;
+    text-align: center;
+}
+.itemprice{
+    color:#C23D00;
+    padding-left: 1vw;
+}
+.wineprice{
+    color:#5c5a58;
+    float: right;
+}
+.beverages{
+    color:#5c5a58;
+    text-align: right;
+    line-height: 3vw;
+}
+.bevprice{
+    color:#C23D00;
+    float: right;}
+
+.column {
+    float: left;
+    width: 45vw;
+    padding: 1vw;
+    text-align: center;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media screen and (max-width: 800px) {
+ .column {
+     width: 100%;
+ }
+}
+
+.privacy {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #333;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4vw;
+}
+
+.footer a{
+    color: #333;
+    padding: 1vw 1vw;
+}
